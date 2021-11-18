@@ -1,4 +1,6 @@
 const express = require('express');
+const bcrypt = require('bcrypt');
+
 const routes = require('./routes');
 const sequelize = require('./config/connection');
 
